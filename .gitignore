@@ -16,3 +16,6 @@ dist-ssr/
 .vscode/*
 !.vscode/extensions.json
 .idea/
+
+# El proyecto Vue vive en su propio repositorio (DBEXA12), no en este repo
+vue-cafeteria/
