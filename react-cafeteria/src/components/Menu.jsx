@@ -1,8 +1,6 @@
 import MenuCard from './MenuCard'
 import { menuItems } from '../data/menu'
 
-// COMPONENTE: Sección del menú. Recorre los datos y crea una
-// tarjeta (MenuCard) por cada producto -> reutilización de componentes.
 export default function Menu() {
   return (
     <section className="menu" id="menu">

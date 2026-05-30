@@ -1,5 +1,3 @@
-// Datos del menú. Separados en su propio archivo para mantener
-// los componentes limpios y reutilizables.
 export const menuItems = [
   {
     id: 1,

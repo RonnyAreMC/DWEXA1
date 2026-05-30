@@ -1,11 +1,9 @@
-// COMPONENTE: Campo de selección reutilizable (select)
-// Las opciones llegan por props. Es un componente independiente:
-// para moverlo solo cambias su posición en el formulario.
 export default function SelectField({
   label,
   name,
   value,
   onChange,
+  onBlur,
   error,
   options = [],
 }) {
@@ -17,6 +15,7 @@ export default function SelectField({
         name={name}
         value={value}
         onChange={onChange}
+        onBlur={onBlur}
         className={error ? 'invalid' : ''}
       >
         <option value="">Seleccione...</option>

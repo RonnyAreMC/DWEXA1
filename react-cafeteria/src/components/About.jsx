@@ -1,4 +1,3 @@
-// COMPONENTE: Sección "Nosotros" con imagen, texto y estadísticas
 export default function About() {
   return (
     <section className="about" id="nosotros">

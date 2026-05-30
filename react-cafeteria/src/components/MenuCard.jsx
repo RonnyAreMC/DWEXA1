@@ -1,5 +1,3 @@
-// COMPONENTE: Tarjeta individual de un producto del menú
-// Recibe un producto por props y muestra su información.
 export default function MenuCard({ item }) {
   return (
     <article className="menu-card">

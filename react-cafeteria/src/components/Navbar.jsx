@@ -1,13 +1,12 @@
 import { useState } from 'react'
 
-// COMPONENTE: Barra de navegación responsive con menú hamburguesa
 export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="#inicio" className="logo">☕ Café Aroma</a>
+        <a href="#inicio" className="logo">Café Aroma</a>
 
         <button
           className="nav-toggle"

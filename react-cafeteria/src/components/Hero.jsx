@@ -1,4 +1,3 @@
-// COMPONENTE: Sección principal (Hero) con llamada a la acción
 export default function Hero() {
   return (
     <header className="hero" id="inicio">

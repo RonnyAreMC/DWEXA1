@@ -1,4 +1,3 @@
-// COMPONENTE: Área de texto reutilizable (textarea)
 export default function TextAreaField({
   label,
   name,
