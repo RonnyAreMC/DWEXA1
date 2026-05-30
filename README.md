@@ -5,12 +5,14 @@ Examen: desarrollo y despliegue de una misma landing page (cafetería
 
 ## 📂 Contenido del repositorio
 - [`react-cafeteria/`](react-cafeteria/) — Landing page desarrollada con **React + Vite**.
-- [`vue-cafeteria/`](vue-cafeteria/) — Landing page desarrollada con **Vue 3 + Vite** (mismo diseño).
 - [`GUIA.md`](GUIA.md) — Guía completa: ejecución, despliegue, GitHub, guion del video y comparativa técnica.
 
-## 🚀 Ejecutar cada proyecto
+> 🔗 La versión en **Vue 3 + Vite** (mismo diseño) está en un repositorio aparte:
+> https://github.com/RonnyAreMC/DBEXA12
+
+## 🚀 Ejecutar el proyecto
 ```bash
-cd react-cafeteria   # o  cd vue-cafeteria
+cd react-cafeteria
 npm install
 npm run dev
 ```
